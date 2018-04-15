@@ -126,6 +126,23 @@ header a{
 	width: 92%;
 }
 
+/* ----- contact ----- */
+.contact a{
+	color: white;
+	font-size: 50px;
+}
+.contact ul{
+	margin: 0;
+	margin: 100px 0 60px 0;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+}
+.contact li{
+	display: inline;
+	padding-left: 16px;
+}
+
 /* ----- footer ----- */
 footer{
 	text-align: center;
