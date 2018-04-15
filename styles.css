@@ -131,6 +131,9 @@ header a{
 	color: white;
 	font-size: 50px;
 }
+.contact a:hover{
+	color: orange;
+}
 .contact ul{
 	margin: 0;
 	margin: 100px 0 60px 0;
