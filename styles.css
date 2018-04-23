@@ -18,9 +18,24 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+header{
+	padding-top: 100px;
+}
 .wrapper{
 	width: 90%;
 	margin: 0 auto;
+}
+.aboutme{
+	display: none;
+}
+.projects{
+	display: none;
+}
+.resume{
+	display: none;
+}
+.contact_contact{
+	display: none;
 }
 .clearfix::after{
 	content: "";
@@ -49,31 +64,37 @@ li{
 }
 
 /* ----- Nav ----- */
-.nav_container{
-	background-color: white;
-	background:rgba(0,0,0,0.7);  
+nav{	
+	line-height: 80px;
+	z-index: -1;
 }
-.nav_container ul{
+nav ul{
+	background:rgba(0,0,0,0.9); 
 	margin: 0;
-	margin: 100px 0 60px 0;
+	padding-left: 20px;
 	position: relative;
-	text-align: center;
+	float: right;
+	position: fixed;
+	width: 100%;
 	text-decoration: none;
 }
-.nav_container li{
+nav li{
 	display: inline;
-	padding-left: 20px;
+	padding: 20px 0 0 100px;
 }
-nav{
-	height: 100px;
-	line-height: 100px;
+#seung{
+	padding:0;
+	color: #ffffff;
+}
+#seung:hover{
+	color: #fcc06c;
 }
 nav a{
 	color: white;
 	text-decoration: none;
 }
-nav a:nth-child(1){
-	float: right;
+nav a:hover{
+	color: orange;
 }
 
 /* ----- Header ----- */
@@ -113,6 +134,7 @@ header a{
 	text-align: center;
 	margin: 100px 0 200px 0;
 	position: relative;
+	z-index: -1;
 }
 .whatIDo h1{
 	color: orange;
@@ -126,16 +148,6 @@ header a{
 	-webkit-transform: translateX(-50%);
 	top: -20px;
 	z-index: -1;
-}
-
-/* ----- work2 ----- */
-.work2{
-	width: 100%;
-	text-align: center;
-}
-.work2 a img{
-	margin: 1%;
-	width: 92%;
 }
 
 /* ----- contact ----- */
