@@ -96,6 +96,9 @@ nav a{
 nav a:hover{
 	color: orange;
 }
+nav .icon{
+	display: none;
+}
 
 /* ----- Header ----- */
 header{
@@ -193,6 +196,30 @@ footer p{
 		width: 96%;
 	}
 
+
+	nav{
+		line-height: 30px;
+	}
+	.nav_container a {
+		display: none;
+	}
+  	nav .icon {
+		display: block;
+ 	}
+  	.nav_container.responsive {
+	  	position: relative;
+	}
+  	.nav_container.responsive .icon {
+    	
+    	right: 0;
+    	top: 0;
+	}
+  	.nav_container.responsive a {
+    	float: none;
+    	display: block;
+		text-align: left;
+		display: block;
+  	}
 }
 
 @media only screen and (max-width: 768px){

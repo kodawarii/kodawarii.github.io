@@ -10,17 +10,18 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-	<link rel="icon" href="icon.png">	
+	<link rel="icon" href="icon.png">
 </head>
 
-<div class="nav_container">
+<div class="nav_container" id="myTopNav">
 		<nav class="clearfix">
 			<ul>
 				<li id="seung">Seungbyoung Yoon Profile</li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Resume</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#" onclick="">About</a></li>
+				<li><a href="#" onclick="">Projects</a></li>
+				<li><a href="#" onclick="">Resume</a></li>
+				<li><a href="#" onclick="">Contact</a></li>
+				<li><a href="#" onclick="myFunction()" class="icon"><i class="fas fa-bars"></i></a></li>
 			</ul>
 		</nav>
 </div>
@@ -100,5 +101,16 @@
 	<div class="contact_contact">
 		<p>Recent Graduate in Computer Science from The University of Auckland</p>
 	</div>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopNav");
+			if (x.className === "nav_container") {
+				x.className += " responsive";
+			} else {
+				x.className = "nav_container";
+			}
+		}
+	</script>
 </body>
 </html>
