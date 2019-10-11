@@ -112,5 +112,6 @@ body, html {
     margin: 20vh 12vw 0 0;
     float: right;
     color: rgb(200, 200, 200);
-    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
 }

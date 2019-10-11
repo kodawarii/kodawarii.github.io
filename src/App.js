@@ -13,7 +13,8 @@ function App() {
       <div className="bg"/>
       <HashRouter>
         <header>
-          <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:100,300,400&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100&display=swap" rel="stylesheet"/>
           <div className="row nav">
             <nav className="col-12 navbar">
               <div className="navbar-left"><Link to={'/'}><h1 className="nav-text-home">Paul</h1></Link><h4> # Software Engineer</h4></div>

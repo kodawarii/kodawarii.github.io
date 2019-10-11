@@ -14,29 +14,67 @@ export default class Home extends Component {
           <h2> # Relevant Experience </h2>
         </div>
         <div className="work-wrapper">
-          <div className="work-desc1"><p> Test Automation Engineer </p></div>
-          <div className="work-img1"><img src="/p.jpg" /></div>
+          <div className="work-desc1">
+            <p> Test Automation Engineer </p>
+            <p> 2018 Jul - Present </p>
+            <p> Achivements: something something </p>
+          </div>
+          <div className="work-img1">
+            <img src="/p.jpg" />
+          </div>
         </div>
-        <div>
-          <p><img src="/iag.svg" /> Test Automation Engineer </p>
+        <div className="work-wrapper">
+        <div className="work-img2">
+          <img src="/iag.svg" />
         </div>
-        <div>
-          <p> Graduate Tester <img src="/asb.jpg" /></p>
+          <div className="work-desc2">
+            <p> Test Automation Engineer (Contractor)</p>
+            <p> 2019 Aug - Present </p>
+            <p> Achivements: something something </p>
+          </div>
+        </div>
+        <div className="work-wrapper">
+          <div className="work-desc3">
+            <p> Graduate Tester (Contractor)</p>
+            <p> 2018 Aug - 2019 Jul</p>
+            <p> Achivements: something something </p>
+          </div>
+          <div className="work-img3">
+            <img src="/asb.jpg" />
+          </div>
         </div>
         
         <br/>
 
         <div> 
-          <h2> # Projects Intro </h2>
+          <h1> # Projects </h1>
         </div> 
-        <div>
-          <p> Noraebang App </p>
+        <div className="proj-wrapper">
+          <div className="proj-img1">
+            <img src="" />
+          </div>
+          <div className="proj-desc1">
+            <p> Noraebang App </p>
+            <p> React Express Node MongoDB </p>
+          </div>
         </div>
-        <div>
-          <p> Disc Golf App </p>
+        <div className="proj-wrapper">
+          <div className="proj-desc2">
+            <p> Disc Golf App </p>
+            <p> React Express Node MongoDB </p>
+          </div>
+          <div className="proj-img2">
+            <img src="" />
+          </div>
         </div>
-        <div>
-          <p> Black Jack </p>
+        <div className="proj-wrapper">
+          <div className="proj-img3">
+            <img src="" />
+          </div>
+          <div className="proj-desc3">
+            <p> Simple Black Jack </p>
+            <p> React Express Node MongoDB </p>
+          </div>
         </div>
       </div>
     );
