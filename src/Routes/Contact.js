@@ -8,7 +8,7 @@ export default class Contact extends Component {
     return (
       <div className="contact">
         <div> 
-          <p> Email </p>
+          <p> Email: xx@yy.zz </p>
           <p> Linkedin </p>
         </div>
       </div>

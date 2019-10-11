@@ -20,12 +20,12 @@ export default class Home extends Component {
             <p> Achivements: something something </p>
           </div>
           <div className="work-img1">
-            <img src="/p.jpg" />
+            <img src="/p.jpg" className="home-img"/>
           </div>
         </div>
         <div className="work-wrapper">
         <div className="work-img2">
-          <img src="/iag.svg" />
+          <img src="/iag.svg" className="home-img"/>
         </div>
           <div className="work-desc2">
             <p> Test Automation Engineer (Contractor)</p>
@@ -40,18 +40,18 @@ export default class Home extends Component {
             <p> Achivements: something something </p>
           </div>
           <div className="work-img3">
-            <img src="/asb.jpg" />
+            <img src="/asb.jpg" className="home-img"/>
           </div>
         </div>
         
         <br/>
 
         <div> 
-          <h1> # Projects </h1>
+          <h2> # Projects </h2>
         </div> 
         <div className="proj-wrapper">
           <div className="proj-img1">
-            <img src="" />
+            <img src="" className="home-img"/>
           </div>
           <div className="proj-desc1">
             <p> Noraebang App </p>
@@ -64,12 +64,12 @@ export default class Home extends Component {
             <p> React Express Node MongoDB </p>
           </div>
           <div className="proj-img2">
-            <img src="" />
+            <img src="" className="home-img"/>
           </div>
         </div>
         <div className="proj-wrapper">
           <div className="proj-img3">
-            <img src="" />
+            <img src="" className="home-img"/>
           </div>
           <div className="proj-desc3">
             <p> Simple Black Jack </p>

@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-img{
+.home-img{
     display: inline-block;
     opacity: 0.7;
     filter: blur(8px);
