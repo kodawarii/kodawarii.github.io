@@ -6,6 +6,7 @@ import Contact from './Routes/Contact';
 import Codings from './Routes/Codings';
 
 import './App.css';
+import './style-footer.css';
 
 function App() {
   return (
