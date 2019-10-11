@@ -1,0 +1,116 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.App{
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.bg{
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1) ), url('/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+    height: 100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.navbar-left{
+    color: rgb(200, 200, 200);
+    padding: 4em 0 0 8em;
+    float: left;
+}
+
+.navbar-right{
+    padding: 6em 10em 0 0;
+    float: right; 
+}  
+
+.navbar-right li{
+    display: inline;
+    padding: 4px 8px 4px 8px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+.nav-text{
+    font-size: 16px;
+}
+
+.nav-text-contact{
+    padding: 8px;
+    border: 2px solid rgb(100, 100, 100);
+    transition: color, border 0.1s linear;
+}
+
+.nav-text-contact:hover{
+    padding: 8px;
+    border: 2px solid rgb(43, 43, 43);
+    color: rgb(128, 128, 128);
+    animation: anim1 0.2s;
+}
+
+@keyframes anim1 {
+    0%{
+        color: rgb(200, 200, 200);
+        border: 2px solid rgb(100, 100, 100);
+    }
+    100%{
+        color: rgb(128, 128, 128);
+        border: 2px solid rgb(43, 43, 43);
+    }
+}
+
+.nav-text-code, .nav-text-home{
+    transition: color 0.1s linear;
+}
+
+.nav-text-code:hover, .nav-text-home:hover{
+    color: rgb(128, 128, 128);
+    animation: anim2 0.2s;
+}
+
+@keyframes anim2 {
+    0%{
+        color: rgb(200, 200, 200);
+    }
+    100%{
+        color: rgb(128, 128, 128);
+    }
+}
+
+.intro{
+    height: 100vh;
+}
+
+.intro-text-container{
+    margin: 20vh 12vw 0 0;
+    float: right;
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+}

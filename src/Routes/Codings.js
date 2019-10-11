@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './style-codings.css';
+
 export default class Codings extends Component {
 
   render() {

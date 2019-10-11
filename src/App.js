@@ -10,27 +10,34 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="bg"/>
       <HashRouter>
         <header>
-          <nav className="navbar">
-          <ul className="navbar-ul">
-              <li className="nav-item">
-                <Link to={'/'}>Paul Yoon SWE</Link>
-              </li>
-            </ul>
-              
-            <ul className="navbar-ul">
-              <li className="nav-item">
-                <Link to={'/codings'}>Code</Link>
-              </li>
-              <li className="nav-item">
-                <Link to={'/contact'}>Contact</Link>
-              </li>
-            </ul>
-          </nav>
+          <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet"/>
+          <div className="row nav">
+            <nav className="col-12 navbar">
+              <div className="navbar-left"><Link to={'/'}><h1 className="nav-text-home">Paul</h1></Link><h4> # Software Engineer</h4></div>
+              <ul className="navbar-right">
+                <li>
+                  <Link to={'/codings'} className="nav-text nav-text-code">CODE</Link>
+                </li>
+                <li>
+                  <Link to={'/contact'} className="nav-text nav-text-contact">CONTACT</Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </header>
-        <div className="switch-div">
-          <Switch>
+        <div className="row intro">
+          <div className="col-12">
+            <div className="intro-text-container">
+              <p> Test Automation Engineer gone rogue </p>
+              <p> - Aspiring SWE with industry coding experience </p>
+            </div>
+          </div>
+        </div>
+        <div className="row main-content">
+          <Switch className="col-12">
             <Route exact path='/' component = {Home} />
             <Route exact path='/contact' component={ Contact } />
             <Route exact path='/codings' component={ Codings } />
