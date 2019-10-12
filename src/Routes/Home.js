@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import { HashLink as Link2 } from 'react-router-hash-link';
 
 import './style-home.css';
+import './style-routesCommon.css';
+
+import ScrollupArrow from '../Components/ScrollupArrow.component';
 
 export default class Home extends Component {
 
@@ -73,8 +77,13 @@ export default class Home extends Component {
           </div>
           <div className="proj-desc3">
             <p> Simple Black Jack </p>
-            <p> React Express Node MongoDB </p>
+            <p> Angular </p>
           </div>
+        </div>
+        <div className="scroll-top-arrow">
+          <Link2 to={'/#top'}>
+            <ScrollupArrow/>
+          </Link2>
         </div>
       </div>
     );

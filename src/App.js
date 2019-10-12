@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashRouter, Switch, Route, Link } from 'react-router-dom';
+import { HashLink as Link2 } from 'react-router-hash-link';
 
 import Home from './Routes/Home';
 import Contact from './Routes/Contact';
@@ -13,7 +14,7 @@ function App() {
     <div className="App">
       <div className="bg"/>
       <HashRouter>
-        <header>
+        <header id="top">
         <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:100,300,400&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css?family=Raleway:100&display=swap" rel="stylesheet"/>
           <div className="row nav">
@@ -21,10 +22,10 @@ function App() {
               <div className="navbar-left"><Link to={'/'}><h1 className="nav-text-home">Paul</h1></Link><h4> # Software Engineer</h4></div>
               <ul className="navbar-right">
                 <li>
-                  <Link to={'/codings'} className="nav-text nav-text-code">CODE</Link>
+                  <Link2 to={'/codings/#content'} className="nav-text nav-text-code">CODE</Link2>
                 </li>
                 <li>
-                  <Link to={'/contact'} className="nav-text nav-text-contact">CONTACT</Link>
+                  <Link2 to={'/contact/#content'} className="nav-text nav-text-contact">CONTACT</Link2>
                 </li>
               </ul>
             </nav>
@@ -38,7 +39,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="row main-content">
+        <div className="row main-content" id="content">
           <Switch className="col-12">
             <Route exact path='/' component = {Home} />
             <Route exact path='/contact' component={ Contact } />

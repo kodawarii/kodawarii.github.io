@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import { HashLink as Link2 } from 'react-router-hash-link';
 
 import './style-contact.css';
+import './style-routesCommon.css';
+
+import ScrollupArrow from '../Components/ScrollupArrow.component';
 
 export default class Contact extends Component {
 
@@ -78,6 +82,11 @@ export default class Contact extends Component {
               linkedin/paul
             </div>
           </div>
+        </div>
+        <div className="scroll-top-arrow">
+          <Link2 to={'/#top'}>
+            <ScrollupArrow/>
+          </Link2>
         </div>
       </div>
     );

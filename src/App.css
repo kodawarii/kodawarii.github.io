@@ -76,7 +76,7 @@ body, html {
     padding: 8px;
     border: 2px solid rgb(43, 43, 43);
     color: rgb(128, 128, 128);
-    animation: anim1 0.2s;
+    animation: anim1 ease-in-out 0.2s;
 }
 
 @keyframes anim1 {
@@ -96,7 +96,7 @@ body, html {
 
 .nav-text-code:hover, .nav-text-home:hover{
     color: rgb(128, 128, 128);
-    animation: anim2 0.2s;
+    animation: anim2 ease-in-out 0.2s;
 }
 
 @keyframes anim2 {

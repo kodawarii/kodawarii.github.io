@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import { HashLink as Link2 } from 'react-router-hash-link';
 
 import './style-codings.css';
+import './style-routesCommon.css';
+
+import ScrollupArrow from '../Components/ScrollupArrow.component';
 
 export default class Codings extends Component {
 
@@ -27,7 +31,7 @@ export default class Codings extends Component {
               <img src="/codings1img4.png" alt="" className="codings-img-type-landscape"/>
               <h3>Simple Black Jack (2019)</h3>
               <p> Simple as making 21. No other rules. Trust me, its not rigged! </p>
-              <a href="https://github.com/kodawarii/"> # SimpleBlackJack </a>
+              <a href="https://kodawarii.github.io/burakku-jakku/"> # SimpleBlackJack </a>
             </div>
             <div className="box d">
               <img src="/bg1.JPG" alt="" className="codings-img-type-landscape codings-img-comingsoon"/>
@@ -45,6 +49,11 @@ export default class Codings extends Component {
               F
             </div>
           </div>
+        </div>
+        <div className="scroll-top-arrow">
+          <Link2 to={'/#top'}>
+            <ScrollupArrow/>
+          </Link2>
         </div>
       </div>
     );
