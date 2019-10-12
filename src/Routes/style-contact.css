@@ -1,6 +1,7 @@
 .contact{
     height: 60vh;
     text-align: center;
+    animation: loadAnimation ease-in-out 1s;
 }
 
 .contact-ul{

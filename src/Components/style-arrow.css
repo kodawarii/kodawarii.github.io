@@ -11,7 +11,7 @@
     
 	-webkit-animation: fade_move_down 3.5s ease-in-out infinite;
 	-moz-animation:    fade_move_down 3.5s ease-in-out infinite;
-    animation:         fade_move_down 3.5s ease-in-out infinite;
+  animation:         fade_move_down 3.5s ease-in-out infinite;
     
 }
 

@@ -19,7 +19,7 @@ function App() {
         <link href="https://fonts.googleapis.com/css?family=Raleway:100&display=swap" rel="stylesheet"/>
           <div className="row nav">
             <nav className="col-12 navbar">
-              <div className="navbar-left"><Link to={'/'}><h1 className="nav-text-home">Paul</h1></Link><h4> # Software Engineer</h4></div>
+              <div className="navbar-left"><Link2 to={'/#content'}><h1 className="nav-text-home">Paul</h1></Link2><h4> # Software Engineer</h4></div>
               <ul className="navbar-right">
                 <li>
                   <Link2 to={'/codings/#content'} className="nav-text nav-text-code">CODE</Link2>

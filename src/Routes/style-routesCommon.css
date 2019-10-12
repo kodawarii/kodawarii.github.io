@@ -3,3 +3,14 @@
     padding: 0 50px 50px 0;
     /*border: 1px solid rgb(0, 255, 34);*/
 }
+
+@keyframes loadAnimation {
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 100;
+        
+    }
+}
