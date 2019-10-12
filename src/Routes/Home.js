@@ -51,7 +51,7 @@ export default class Home extends Component {
         </div> 
         <div className="proj-wrapper">
           <div className="proj-img1">
-            <img src="" alt="" className="home-img"/>
+            <img src=".jpg" alt="" className="home-img"/>
           </div>
           <div className="proj-desc1">
             <p> Noraebang App </p>
@@ -64,12 +64,12 @@ export default class Home extends Component {
             <p> React Express Node MongoDB </p>
           </div>
           <div className="proj-img2">
-            <img src="" alt="" className="home-img"/>
+            <img src=".jpg" alt="" className="home-img"/>
           </div>
         </div>
         <div className="proj-wrapper">
           <div className="proj-img3">
-            <img src="" alt="" className="home-img"/>
+            <img src=".jpg" alt="" className="home-img"/>
           </div>
           <div className="proj-desc3">
             <p> Simple Black Jack </p>

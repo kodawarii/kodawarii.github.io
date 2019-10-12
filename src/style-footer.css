@@ -10,12 +10,12 @@
   padding: 0 12px 0 12px;
 }
 
-a{
+.footer-outer a{
   text-decoration: none;
   color: rgb(230, 230, 230);
 }
 
-a:hover{
+.footer-outer a:hover{
   color: rgb(100, 100, 100);
   text-decoration: underline;
 }

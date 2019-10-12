@@ -1,3 +1,94 @@
 .contact{
-    color: rgb(129, 129, 129);
+    height: 60vh;
+    text-align: center;
+}
+
+.contact-ul{
+    padding-top: 30px;
+}
+
+.contact-ul li{
+    display: inline;
+    padding: 4px 8px 4px 8px;
+}
+
+.contact-li-text-contact, .contact-li-text-code{
+    padding: 8px;
+    color: rgb(139, 139, 139);
+    border: 2px solid rgb(139, 139, 139);
+    transition: color, border 0.2s linear;
+    cursor: pointer;
+}
+
+.contact-li-text-contact:hover, .contact-li-text-code:hover{
+    padding: 8px;
+    color: rgb(211, 211, 211);
+    border: 2px solid rgb(211, 211, 211);
+    animation: contactAnim 0.2s;
+}
+
+@keyframes contactAnim {
+    0%{
+        color: rgb(139, 139, 139);
+        border: 2px solid rgb(139, 139, 139);
+    }
+    100%{
+        color: rgb(211, 211, 211);
+        border: 2px solid rgb(211, 211, 211);
+    }
+}
+
+.hidden-wrapper{
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -85%);
+}
+
+.email-clicked, .linkedin-clicked{
+    display: none;
+}
+
+.email-clicked-show, .linkedin-clicked-show{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid lightgrey;
+    border-radius: 12px;
+    padding: 50px 150px 50px 150px;
+    animation: showBorderBackgroundAnim 1s;
+    animation: showContactTextAnim 2s;
+}
+
+@keyframes showBorderBackgroundAnim {
+    0%{
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 0px;
+    }
+    100%{
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 12px;
+        border: 2px solid lightgrey;
+    }
+}
+
+@keyframes showContactTextAnim {
+    0%{
+       color: white;
+    }
+    100%{
+        color: black;
+    }
+}
+
+.close-details:hover, .text-details:hover{
+    cursor: pointer;
+}
+
+.close-details:hover{
+    color: red;
+}
+
+.text-details:hover{
+    color: orange;
+    text-decoration: underline;
 }
