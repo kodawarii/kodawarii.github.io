@@ -9,16 +9,29 @@
     display: inline-block;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: 25vw 25vw 25vw;
-    grid-gap: 64px;
-    text-align: left;
-    animation: loadAnimation ease-in-out 1s;
+
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 25vw 25vw 25vw;
+        grid-gap: 64px;
+        text-align: left;
+        animation: loadAnimation ease-in-out 1s;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-gap: 64px;
+        text-align: left;
+        animation: loadAnimation ease-in-out 1s;
+    }
 }
   
 .box {
-    padding: 12px;
+    padding: 20px;
 }
 
 .f{

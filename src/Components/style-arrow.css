@@ -1,13 +1,13 @@
 .scroll-up {
 	display: block;
-    z-index: 100;
-    width: 16px;
-    height: 16px;
-    border-bottom: 2px solid rgb(196, 196, 196);
-    border-right: 2px solid rgb(196, 196, 196);
-    -webkit-transform: translate(-50%, 0%) rotate(225deg);
-    -moz-transform: translate(-50%, 0%) rotate(225deg);
-    transform: translate(-50%, 0%) rotate(225deg);
+  z-index: 100;
+  width: 16px;
+  height: 16px;
+  border-bottom: 2px solid rgb(196, 196, 196);
+  border-right: 2px solid rgb(196, 196, 196);
+  -webkit-transform: translate(-50%, 0%) rotate(225deg);
+  -moz-transform: translate(-50%, 0%) rotate(225deg);
+  transform: translate(-50%, 0%) rotate(225deg);
     
 	-webkit-animation: fade_move_down 3.5s ease-in-out infinite;
 	-moz-animation:    fade_move_down 3.5s ease-in-out infinite;

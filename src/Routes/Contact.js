@@ -9,7 +9,7 @@ import ScrollupArrow from '../Components/ScrollupArrow.component';
 export default class Contact extends Component {
 
   constructor(props){
-    super();
+    super(props);
     this.state = {
       emailOpen: false,
       linkedinOpen: false
@@ -17,22 +17,18 @@ export default class Contact extends Component {
   }
 
   showEmail(){
-    console.log("showing email");
     this.setState({ emailOpen: true });
   }
 
   showLinkedin(){
-    console.log("showing linkedin");
     this.setState({ linkedinOpen: true });
   }
 
   hideEmail(){
-    console.log("hiding email");
     this.setState({ emailOpen: false });
   }
 
   hideLinkedin(){
-    console.log("hiding linkedin");
     this.setState({ linkedinOpen: false });
   }
 
@@ -67,16 +63,16 @@ export default class Contact extends Component {
         </ul>
         <div className="hidden-wrapper">
           <div className={emailClassNames}>
-            <div className="close-details" onClick={this.hideEmail.bind(this)}>
-              ✖
+            <div className="close-details">
+              <span onClick={this.hideEmail.bind(this)}>✖</span>
             </div>
             <div className="text-details">
               email@email.com
             </div>
           </div>
           <div className={linkedinClassNames}>
-            <div className="close-details" onClick={this.hideLinkedin.bind(this)}>
-              ✖
+            <div className="close-details">
+              <span onClick={this.hideLinkedin.bind(this)}>✖</span>
             </div>
             <div className="text-details">
               linkedin/paul

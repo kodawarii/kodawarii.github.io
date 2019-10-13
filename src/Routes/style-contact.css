@@ -1,3 +1,27 @@
+@media only screen and (min-width: 768px) {
+    .email-clicked-show, .linkedin-clicked-show{
+        display: block;
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 2px solid lightgrey;
+        border-radius: 12px;
+        padding: 50px 150px 50px 150px;
+        animation: showBorderBackgroundAnim 1s;
+        animation: showContactTextAnim 2s;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .email-clicked-show, .linkedin-clicked-show{
+        display: block;
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 2px solid lightgrey;
+        border-radius: 12px;
+        padding: 30px 100px 30px 100px;
+        animation: showBorderBackgroundAnim 1s;
+        animation: showContactTextAnim 2s;
+    }
+}
+
 .contact{
     height: 60vh;
     text-align: center;
@@ -48,16 +72,6 @@
 
 .email-clicked, .linkedin-clicked{
     display: none;
-}
-
-.email-clicked-show, .linkedin-clicked-show{
-    display: block;
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 2px solid lightgrey;
-    border-radius: 12px;
-    padding: 50px 150px 50px 150px;
-    animation: showBorderBackgroundAnim 1s;
-    animation: showContactTextAnim 2s;
 }
 
 @keyframes showBorderBackgroundAnim {

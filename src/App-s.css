@@ -1,0 +1,105 @@
+.navbar-left-s{
+    color: rgb(200, 200, 200);
+    padding: 20px 0 0 40px;
+    float: left;
+}
+
+.navbar-left-s-hidden{
+    display: none;
+}
+
+.hamburger-icon{
+    padding: 30px 50px 0 0;
+    float: right;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar-right-s{
+    display: none;
+}
+
+.navbar-right-s-show{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(14, 14, 14);
+    list-style-type: none;
+    padding-top: 40vh;
+    animation: hamburgerRevealAnim ease-in-out 0.3s;
+}
+
+@keyframes hamburgerRevealAnim {
+    0%{
+        opacity: 0;
+        -webkit-transform:translate(0,-20px); 
+        
+    }
+    100%{
+        opacity: 100;
+        -webkit-transform:translate(0,-0);
+    }
+}
+
+.navbar-right-s-show li{
+    padding: 20px;
+}
+
+.nav-text-s{
+    font-size: 16px;
+}
+
+.nav-text-contact-s{
+    padding: 8px;
+    border: 2px solid rgb(100, 100, 100);
+    transition: color, border 0.1s linear;
+}
+
+.nav-text-contact-s:hover{
+    padding: 8px;
+    border: 2px solid rgb(43, 43, 43);
+    color: rgb(128, 128, 128);
+    animation: anim1 ease-in-out 0.2s;
+}
+
+@keyframes anim1 {
+    0%{
+        color: rgb(200, 200, 200);
+        border: 2px solid rgb(100, 100, 100);
+    }
+    100%{
+        color: rgb(128, 128, 128);
+        border: 2px solid rgb(43, 43, 43);
+    }
+}
+
+.nav-text-code-s, .nav-text-home-s, .nav-text-contact-s{
+    transition: color 0.1s linear;
+}
+
+.nav-text-code-s:hover, .nav-text-home-s:hover{
+    color: rgb(128, 128, 128);
+    animation: anim2 ease-in-out 0.2s;
+}
+
+@keyframes anim2 {
+    0%{
+        color: rgb(200, 200, 200);
+    }
+    100%{
+        color: rgb(128, 128, 128);
+    }
+}
+
+.intro-text-container-s{
+    margin: 12vh 8vw 20vh 16vw;
+    float: right;
+    color: rgb(221, 221, 221);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+
+}
+
+.intro-text-container-s-hidden{
+    display: none;
+}
