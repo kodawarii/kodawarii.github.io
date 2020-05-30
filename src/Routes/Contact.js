@@ -67,7 +67,7 @@ export default class Contact extends Component {
               <span onClick={this.hideEmail.bind(this)}>✖</span>
             </div>
             <div className="text-details">
-              email@email.com
+              paulyoonse@gmail.com
             </div>
           </div>
           <div className={linkedinClassNames}>
@@ -75,7 +75,7 @@ export default class Contact extends Component {
               <span onClick={this.hideLinkedin.bind(this)}>✖</span>
             </div>
             <div className="text-details">
-              linkedin/paul
+              <a href="https://www.linkedin.com/in/paul-yoon-aya/">https://www.linkedin.com/in/paul-yoon-aya/</a>
             </div>
           </div>
         </div>
