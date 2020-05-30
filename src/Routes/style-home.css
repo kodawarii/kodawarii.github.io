@@ -6,8 +6,6 @@
 
 .home-img{
     display: inline-block;
-    opacity: 0.2;
-    filter: blur(12px);
     height: 100px;
     width: 100px;
 }

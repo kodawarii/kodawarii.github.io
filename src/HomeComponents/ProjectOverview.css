@@ -1,0 +1,29 @@
+@media only screen and (min-width: 768px) {
+    .ProjectOverview{
+      display: block;
+    }
+    .ProjectOverview-s{
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ProjectOverview{
+      display: none;
+    }
+    .ProjectOverview-s{
+      display: block;
+    }
+}
+
+.positionTitle{
+    font-weight: bolder;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 25px;
+}

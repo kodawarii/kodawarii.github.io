@@ -91,9 +91,17 @@
     }
 }
 
+.intro-s{
+    margin-top: 80px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
 .intro-text-container-s{
-    margin: 12vh 8vw 20vh 16vw;
-    float: right;
+    width: 80%;
+    margin: 0vh 0vw 20vh 10vw;
+    
     color: rgb(221, 221, 221);
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -103,3 +111,4 @@
 .intro-text-container-s-hidden{
     display: none;
 }
+

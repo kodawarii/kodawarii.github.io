@@ -118,9 +118,32 @@ body, html {
 }
 
 .intro-text-container{
+    height: 100%;
+    width: 50%;
     margin: 20vh 12vw 0 0;
     float: right;
     color: rgb(200, 200, 200);
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+}
+
+.intro-text-container-s{
+    /* Todo: do this properly, very bad practice */
+    transform: scale(0.8);
+}
+
+.description{
+    color: rgb(211, 211, 211);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.skills{
+    color: rgb(160, 160, 160);
+    transform: scale(0.8);
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.skill-text{
+    padding: 4px;
 }

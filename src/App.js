@@ -6,6 +6,8 @@ import Home from './Routes/Home';
 import Contact from './Routes/Contact';
 import Codings from './Routes/Codings';
 
+import Description from './Components/Description.component';
+
 import './App.css';
 import './App-s.css';
 import './style-footer.css';
@@ -57,7 +59,7 @@ export default class InnerApp extends Component {
               <link href="https://fonts.googleapis.com/css?family=Raleway:100&display=swap" rel="stylesheet"/>
               <div className="row nav">
                 <nav className="col-12 navbar">
-                  <div className="navbar-left"><Link2 to={'/#content'}><h1 className="nav-text-home">Paul</h1></Link2><h4> # Software Engineer</h4></div>
+                  <div className="navbar-left"><Link2 to={'/#content'}><h1 className="nav-text-home">Paul</h1></Link2><h4> # Software Developer in Test</h4></div>
                   <ul className="navbar-right">
                     <li>
                       <Link2 to={'/codings/#content'} className="nav-text nav-text-code">CODE</Link2>
@@ -70,21 +72,20 @@ export default class InnerApp extends Component {
               </div>
             </header>
             <div className="row intro">
-              <div>
-                <div className="intro-text-container">
-                  <p> Test Automation Engineer gone rogue </p>
-                  <p> - Aspiring SWE with industry coding experience </p>
-                </div>
+              <div className="NeedThisForGridToWorkProperly">
+                <Description cssClasses="intro-text-container"/>
               </div>
             </div>
           </div>
+
+          
           <div id="titletop-s">
             <header id="top">
               <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:100,300,400&display=swap" rel="stylesheet"/>
               <link href="https://fonts.googleapis.com/css?family=Raleway:100&display=swap" rel="stylesheet"/>
               <div className="row nav">
                 <nav className="col-12 navbar-s">
-                  <div className={navbarLeftClasses}><Link2 to={'/#content'} onClick={this.closeHamburger.bind(this)}><h1 className="nav-text-home-s">Paul</h1></Link2><h4> # Software Engineer</h4></div>
+                  <div className={navbarLeftClasses}><Link2 to={'/#content'} onClick={this.closeHamburger.bind(this)}><h1 className="nav-text-home-s">Paul</h1></Link2><h4> # Software Developer in Test</h4></div>
                   <div className="hamburger-icon" onClick={this.openHamburger.bind(this)}> &#8801; </div>
                   <ul className={hamburgerClasses}>
                     <li>
@@ -97,12 +98,9 @@ export default class InnerApp extends Component {
                 </nav>
               </div>
             </header>
-            <div className="row intro">
-              <div>
-                <div className={introClasses}>
-                  <p> Test Automation Engineer gone rogue </p>
-                  <p> - Aspiring SWE with industry coding experience </p>
-                </div>
+            <div className="row intro-s">
+              <div className="NeedThisForGridToWorkProperly">
+                <Description cssClasses={introClasses}/>
               </div>
             </div>
           </div>
