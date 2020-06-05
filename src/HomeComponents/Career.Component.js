@@ -52,7 +52,7 @@ export default class Career extends Component {
                 <div className="work-desc3">
                     <p className={positionTitleClass}> Graduate Tester (Contractor)</p>
                     <p> 2018 Aug - 2019 Jul</p>
-                    <p className={descriptionClass}> Project FCC Uplift - UAT Testing </p>
+                    <p className={descriptionClass}> Project FCC Uplift / KYC CLM - UAT and Regression Testing </p>
                     <p className={descriptionClass}> Project Talisman Replacement - System/Integration Testing </p>
                 </div>
             </div>

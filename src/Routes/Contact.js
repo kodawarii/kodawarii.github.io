@@ -52,7 +52,7 @@ export default class Contact extends Component {
 
     return (
       <div className="contact">
-        <p> For inquires contact: </p>
+        <p> For inquiries contact: </p>
         <ul className="contact-ul">
           <li>
             <span className="contact-li-text-code" onClick={this.showEmail.bind(this)}>Email</span>

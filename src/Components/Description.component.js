@@ -9,7 +9,7 @@ export default class Description extends Component {
 
     return (
       <div className={this.props.cssClasses}>
-        <p className="description">I am a software developer in test based in Auckland New Zealand, delivering creative solutions to add quality to software within organisations primarily focusing on functions of Web Services and User Interfaces.</p>
+        <p className="description">I am a SDET helping organisations elevate product quality by automating processes and building robust tools. Strongly believes that the entire team is responsible for design, engineering, quality and testing.</p>
         <p className="skills">
           <span className={skillCss}>C#</span> 
           <span className={skillCss}>.NET</span>
